@@ -41,7 +41,7 @@ public class ToolBar extends JPanel implements AttributeDialog, PopulationDialog
     @Override
     public List population() {
         try {
-            return MailReader.read("C:\\Users\\WonkaD\\Documents\\NetBeansProjects\\Kata7\\src\\kata7\\emails.txt");
+            return MailReader.read("/Users/Saskia/Desktop/email.txt");
         } catch (IOException ex) {
             return new ArrayList();
         }
